@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,23 +22,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hew-63-qSi">
-                                <rect key="frame" x="168" y="318.5" width="38" height="30"/>
-                                <state key="normal" title="Label"/>
+                                <rect key="frame" x="151" y="318.5" width="73" height="30"/>
+                                <state key="normal" title="Show alert"/>
                                 <connections>
                                     <action selector="doStuffAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yGK-g7-5Nk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOd-Le-zhR">
-                                <rect key="frame" x="37" y="28" width="39.5" height="19.5"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EOd-Le-zhR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="NCD-8B-4C2"/>
-                            <constraint firstItem="EOd-Le-zhR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PQT-rg-snZ"/>
                             <constraint firstItem="hew-63-qSi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pgn-xm-bYo"/>
                             <constraint firstItem="hew-63-qSi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rbr-61-WNu"/>
                         </constraints>
