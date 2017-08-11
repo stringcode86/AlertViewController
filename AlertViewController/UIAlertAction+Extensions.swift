@@ -8,7 +8,7 @@
 
 import UIKit
 
-/// Adds ability to display image left of the action title, by leveraging KVO. 
+/// Adds ability to display image left of the action title, by leveraging KVC. 
 /// Also checks whether `UIAlertAction` responds to appropriate selector to 
 /// avoid crashes if property is not available in the future.
 extension UIAlertAction {

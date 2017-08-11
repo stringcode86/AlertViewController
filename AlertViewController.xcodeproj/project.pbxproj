@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F70A9341F3E33F800721047 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9F7476ED1F288C33000E2B6A /* AlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7476F01F288C33000E2B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7476F21F288C33000E2B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		9F7476E41F288C33000E2B6A = {
 			isa = PBXGroup;
 			children = (
+				9F70A9341F3E33F800721047 /* README.md */,
 				9F7476EF1F288C33000E2B6A /* AlertViewController */,
 				9F7476EE1F288C33000E2B6A /* Products */,
 			);
@@ -312,6 +314,7 @@
 				9F7477011F288C33000E2B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
